@@ -24,9 +24,49 @@ The project is built as a client-server application with a modern, responsive we
 
 ### ⚙️ Installation
 Clone the repository:
-```bash
 git clone https://github.com/your-username/your-repository-name.git
 cd your-repository-name
+
+### Install dependencies 
+pip install -r requirements.txt
+⚠️ Note: Some OCR engines may require additional system-level installations (e.g., Tesseract).
+
+##🚀 Running the Application
+The application consists of a backend server and a frontend web page.
+
+### Start the backend server
+Open your terminal and run the following command from the project’s root directory:
+
+uvicorn apicode2:app --reload
+
+This will start the server on:
+👉 http://127.0.0.1:8000
+
+###Open the frontend
+
+Open your index.html file in a web browser.
+It will automatically connect to the running backend server.
+
+##🛠️ Technologies Used
+
+###Frontend
+
+HTML5 – Page structure
+Tailwind CSS – Styling and responsive design
+JavaScript – Handles user interactions and communicates with the backend API
+
+###Backend
+
+Python – Core programming language
+FastAPI – Modern, high-performance web framework for building the API
+PyMuPDF (fitz) – Fast library for handling PDF files
+pdfplumber – Extracting data from PDFs
+pytesseract – Python wrapper for Google’s Tesseract OCR
+easyocr – Easy-to-use OCR library
+paddleocr – Powerful OCR library from PaddlePaddle
+python-docx – For creating .docx files
+reportlab – For generating PDFs from DOCX
+
 
 
 
