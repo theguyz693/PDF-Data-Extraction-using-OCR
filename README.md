@@ -48,9 +48,6 @@ uvicorn apicode2:app --reload
 This will start the server on:
 👉 http://127.0.0.1:8000
 
-This will start the server on:
-👉 http://127.0.0.1:8000
-
 ### Open the frontend
 Open your `index.html` file in a web browser. It will automatically connect to the running backend server.
 
