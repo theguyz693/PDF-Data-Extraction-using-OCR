@@ -24,12 +24,15 @@ The project is built as a client-server application with a modern, responsive we
 
 ### ⚙️ Installation
 Clone the repository:
+
 git clone https://github.com/your-username/your-repository-name.git
 cd your-repository-name
 
 ### Install dependencies 
 pip install -r requirements.txt
 ⚠️ Note: Some OCR engines may require additional system-level installations (e.g., Tesseract).
+
+---
 
 ##🚀 Running the Application
 The application consists of a backend server and a frontend web page.
@@ -46,6 +49,8 @@ This will start the server on:
 
 Open your index.html file in a web browser.
 It will automatically connect to the running backend server.
+
+---
 
 ##🛠️ Technologies Used
 
