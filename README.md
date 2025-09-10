@@ -4,6 +4,8 @@ This is a web application that provides a powerful and flexible way to extract t
 
 The project is built as a client-server application with a modern, responsive web interface and a robust Python backend powered by **FastAPI**.
 
+[Preview of project hosted on github](https://theguyz693.github.io/PDF-Data-Extraction-using-OCR/)
+
 ---
 
 ## ✨ Features
