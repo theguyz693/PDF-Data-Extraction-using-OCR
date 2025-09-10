@@ -35,6 +35,7 @@ pip install -r requirements.txt
 ---
 
 ##🚀 Running the Application
+
 The application consists of a backend server and a frontend web page.
 
 ### Start the backend server
