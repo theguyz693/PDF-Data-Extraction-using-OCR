@@ -34,9 +34,10 @@ pip install -r requirements.txt
 
 ---
 
-##🚀 Running the Application
+#🚀 Running the Application
 
 The application consists of a backend server and a frontend web page.
+
 
 ### Start the backend server
 Open your terminal and run the following command from the project’s root directory:
@@ -46,7 +47,8 @@ uvicorn apicode2:app --reload
 This will start the server on:
 👉 http://127.0.0.1:8000
 
-###Open the frontend
+
+####Open the frontend
 
 Open your index.html file in a web browser.
 It will automatically connect to the running backend server.
